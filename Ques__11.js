@@ -51,7 +51,6 @@ Book.prototype.getBookDetails = function () {
   return `${this.getDetails()}, Author: ${this.author}, Genre: ${this.genre}`;
 };
 
-// Example Usage
 const laptop = new Electronics("Laptop", 1200, 10, "Dell", "XPS 15");
 const shirt = new Clothing("T-Shirt", 20, 50, "M", "Cotton");
 const novel = new Book("The Great Gatsby", 15, 30, "F. Scott Fitzgerald", "Fiction");
